@@ -5,25 +5,37 @@ body {
   font-weight: 400;
   color: #626262;
 }
+.container {
+  max-width: 936px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* =================Heder===================== */
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
 .menu-link {
   color: #7d7d7d;
-  text-decoration: none;
 }
 .menu-link:hover {
   color: #03a9f4;
 }
 /* =================Mein===================== */
+.gallery {
+  padding-bottom: 66px;
+}
 .gallery-category {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   color: #b4ad9e;
 }
 .gallery-titel {
-  font-weight: 400;
   font-size: 30px;
 }
 .gallery-button {
   font-weight: 400;
   font-size: 14px;
-f}
+}
