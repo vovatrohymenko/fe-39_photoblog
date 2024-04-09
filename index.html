@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="./css/reset.css" />
   </head>
   <body>
-    <div class="container">
-      <!-- Шапка сайту -->
-      <header class="header">
+    <!-- Шапка сайту -->
+    <header class="header">
+      <div class="container">
         <!-- Навігація -->
         <nav class="header-menu">
           <ul class="menu-list">
@@ -38,12 +38,14 @@
             <li class="menu-item"><a class="menu-link" href="#">TRAVEL</a></li>
           </ul>
         </nav>
-      </header>
-      <!-- Основна частина -->
-      <main class="main">
-        <section class="gallery">
+      </div>
+    </header>
+    <!-- Основна частина -->
+    <main class="main">
+      <section class="gallery">
+        <div class="container gallery-container">
           <div class="gallery-cards">
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/01.jpg"
@@ -58,7 +60,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/02.jpg"
@@ -73,7 +75,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/03.jpg"
@@ -88,7 +90,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/04.jpg"
@@ -103,7 +105,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/05.jpg"
@@ -118,7 +120,7 @@
                 nisi ut aliquip ex ea.
               </p>
             </article>
-            <article class="gallery-cards">
+            <article class="gallery-card">
               <img
                 class="gallery-photo"
                 src="./images/06.jpg"
@@ -135,8 +137,8 @@
             </article>
           </div>
           <button class="gallery-button">Load more</button>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

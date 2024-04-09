@@ -12,11 +12,28 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  display: block;
+  width: 100%;
+}
 /* =================Heder===================== */
 .header {
   padding-top: 71px;
   padding-bottom: 92px;
 }
+.menu-list {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  max-width: 555px;
+  margin: 0 auto;
+}
+
 .menu-link {
   color: #7d7d7d;
 }
@@ -27,15 +44,39 @@ body {
 .gallery {
   padding-bottom: 66px;
 }
+.gallery-photo {
+  margin-bottom: 62px;
+}
+.gallery-cards {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 130px;
+  margin-bottom: 90px;
+}
+.gallery-card {
+  flex-basis: calc((100%-65px) / 2);
+}
 .gallery-category {
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   color: #b4ad9e;
+  margin-bottom: 32px;
+}
+.gallery-card {
+  width: 420px;
 }
 .gallery-titel {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 .gallery-button {
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 14px;
+  color: #626262;
+  padding: 20px 50px;
+  background-color: #fff;
+  border: 1px solid #626262;
+  align-self: center;
 }
